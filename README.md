@@ -1,7 +1,7 @@
 #LightTextManager
 
 ```sh
-$ composer require dipcom/light-text-manager
+$ composer require dipcms/light-text-manager:@dev
 ```
 
 ```yaml  
