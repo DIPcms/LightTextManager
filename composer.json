@@ -1,0 +1,35 @@
+{
+	"name": "dipcom/light-text-manager",
+	"description": "",
+	"homepage": "http://dipcom.cz",
+	"type": "library",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Mykola Chomenko",
+			"homepage": "http://dipcom.cz",
+                        "email": "mykola.chomenko@dipcom.cz"
+		}
+	],
+	
+	"require": {
+		"nette/di": "~2.2",
+                "latte/latte": "~2.2",
+                "kdyby/doctrine": "~3.0.0",
+                "texy/texy": "~2.8.2",
+                "dipcms/template-extensions": "~1.0"
+	},
+	"require-dev": {
+		"nette/tester": "@dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"DIPcms\\LightTextManager\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
